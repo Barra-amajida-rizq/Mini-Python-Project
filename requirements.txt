@@ -1,0 +1,3 @@
+# Requirements untuk Mini Python Project
+# Saat ini project hanya menggunakan modul standar Python (built-in),
+# jadi belum ada dependency eksternal yang perlu diinstall
