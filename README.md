@@ -60,7 +60,7 @@ Mini-Python-Project/
 ## 🛠️ Teknologi
 
 - Python 3.x
-- Modul standar Python (tanpa library eksternal, kecuali disebutkan di `requirements.txt`)
+- Modul standar Python tanpa library eksternal.
 
 ## 📖 Cara Menambahkan Mini Project Baru
 
@@ -78,4 +78,4 @@ Project ini dibuat untuk pembelajaran pribadi, namun saran dan masukan sangat te
 Bebas digunakan untuk belajar. Silakan fork dan kembangkan sesuai kebutuhanmu.
 
 ---
-Dibuat dengan ❤️ menggunakan Python oleh [Barra Amajida Rizq](https://github.com/Barra-amajida-rizq)
+Dibuat menggunakan Python oleh [Barra Amajida Rizq](https://github.com/Barra-amajida-rizq)
