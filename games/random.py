@@ -1,5 +1,4 @@
 import random
-from main import main
 
 #main program
 def game():
@@ -36,6 +35,7 @@ def game():
             print(f"Terima kasih telah bermain!")
             back_menu = input("kembali ke menu utama? [y/n]: ")
             if back_menu == "y":
+                from main import main
                 main()
 
 if __name__ == '__main__':
