@@ -53,9 +53,10 @@ Mini-Python-Project/
 
 | No | Nama Project | Deskripsi | Status |
 |----|---------------|-----------|--------|
-| 1  | Games (random) | Mini game sederhana berbasis random | ✅ Selesai |
-| 2  | Warung | Simulasi aplikasi warung/toko sederhana | ✅ Selesai |
-| 3  | *(project berikutnya)* | *(akan ditambahkan)* | 🔜 |
+| 1  | Games (random) | Mini game sederhana berbasis random | ✅ Finish |
+| 2  | Warung | Simulasi aplikasi warung/toko sederhana | ✅ Finish |
+| 3  | array_excercise | Aplikasi yang dibuat untuk melatih array | ✅ Finish |
+| 4  | *(project berikutnya)* | *(akan ditambahkan)* | 🔜 |
 
 ## 🛠️ Teknologi
 
