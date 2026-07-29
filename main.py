@@ -2,17 +2,21 @@ from libs import welcome_message, exit_message
 from games import random
 from warung import warung
 from libs import keluar
+from array_excercise import nota_fotocopy
 
 def menu():
     welcome_message()
-    print(f"Selamat datang Project aplikasi sederhana Python. \nSilahkan Pilih aplikasi apa yang ini dibuka\n1. Mini Games \n2. Warung \n3. Keluar")
-    pilihan = input("Silahkan Pilih [1 / 2 / 3]: ")
+    print(f"Selamat datang Project aplikasi sederhana Python. \nSilahkan Pilih aplikasi apa yang ini dibuka\n1. Mini Games \n2. Warung \n3. Nota FotoCopy \n4. Keluar")
+    pilihan = input("Silahkan Pilih [1 / 2 / 3 / 4]: ")
     if pilihan == "1":
         random.game()
     elif pilihan == "2":
         warung.start()
     elif pilihan == "3":
-        keluar()
+        nota_fotocopy.PenghitunganBiayaFotoCopy()
+    elif pilihan == "4":
+        keluar.exit_program()
+
 
 def main():
     menu()

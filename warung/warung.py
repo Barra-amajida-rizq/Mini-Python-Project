@@ -1,5 +1,6 @@
 import main
 from .services import db
+from .kasir_transaksi import kasir
 
 def add():
     kode_barang = input("Masukkan kode barang: ")
@@ -31,15 +32,17 @@ def edit():
 def start():
     while True:
         print()
-        menu = int(input("Selamat datang di aplikasi kasir. \nSilahkan pilih menu: \n1. Tambah item \n2. Cek item \n3. Edit \n4. Kembali ke menu utama\n\nPilihan [1 / 2 / 3 / 4]: "))
+        menu = int(input("Selamat datang di aplikasi warung. \nSilahkan pilih menu: \n1. Kasir \n2. Tambah Stock \n3. Cek Stock \n4. Edit Stock\n5. Kembali ke menu utama\nPilihan [1 / 2 / 3 / 4]: "))
         print()
         if menu == 1:
-            add()
+            kasir()
         elif menu == 2:
-            check()
+            add()
         elif menu == 3:
-            edit()
+            check()
         elif menu == 4:
+            edit()
+        elif menu == 5:
             main.menu()
         else:
             break
