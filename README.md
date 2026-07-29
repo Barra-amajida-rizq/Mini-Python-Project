@@ -16,6 +16,10 @@ Mini-Python-Project/
 │   ├── services/
 │   │   └── db.py          # Modul database/penyimpanan data warung
 │   └── warung.py          # Logika utama aplikasi warung
+├── array_excercise/
+│   ├── kalkultaor.py
+│   ├── MoneyTracker.py
+│   └── nota_fotocopy.py
 ├── libs.py                 # Fungsi bantuan umum (welcome_message, exit_message, keluar)
 ├── main.py                  # Entry point, menu utama untuk memilih mini project
 ├── requirements.txt
